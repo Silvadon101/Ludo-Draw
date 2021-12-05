@@ -1,0 +1,30 @@
+Event Sheduling -
+Assessment Phase : Any delayed effects from turns exectuted prior (by any player targetting you, or you targetting any player) are checked
+Draw Phase : If you possess a token, draw a card if not obstructed by a card effect, trigger draw related card effects.
+Action Phase : Play a maximum of two cards unless interrupted by other effects, other players can respond with counter clash cards.
+End Phase : Turn ends, nothing happens.
+
+New Card Ideas -
+Delayed Effects --
+	Time Bomb - Roll your dice, after that number of turns, blow up the current player's dice.
+	Remote Detonator - Roll your dice, after that number of turns, blow up the current player's dice.
+Draw Interruption --
+	Withdraw - Return one card to the lottery, the next player must return two cards to the lottery.
+	Fake Ticket - The next player has their draw reduced by one.
+	Lost and Found - Return two cards to the main lottery, Next turn, draw two cards.
+	Bonus! - Every player immediately draws a card.
+Action Cards --
+	Glass Cieling -- Roll your dice, the other players cannot achieve a value higher than what you have rolled for your turn and the next players turn.
+	The Floor Is Lava -- Roll your dice, if the next player rolls equal to or lower than that value, their roll is lost.
+	Power Throw -- Throw three dice.
+	Mini Toss -- Throw one die twice.
+	It's All In The Wrist -- Roll your dice, you are guaranteed a double.
+	Pitfall -- Roll your dice, leave a pitfall at your starting position until your next turn. Pitfall swallows the dice of any player that lands on it, sending their token back to square one.
+	Inquisition -- Predict the value of your next roll, get an extra turn if you guessed correctly.
+Clash Cards --
+	Duel -- Clash dice with the next player. The loser loses their turn or next turn.
+	Call to conquest -- Clash dice with every player, if you win they all lose their next turn. If you lose, you lose as many turns as each other player.
+Counter Clash Cards --
+	That's mine! -- Clash dice. The winner executes the card effect instead of the original caster.
+Counter Action Cards --
+	Cost and Effect -- Roll your dice, the caster of the countered card must move that many spaces backwards after executing their roll. If they move beyond the gate, they must return to the gate.
