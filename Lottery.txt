@@ -1,0 +1,5 @@
+The lottery for cards may be divided into three rarities and the exception of Lucky Cards.
+
+Rarity 1 - 1 Star ★ 3/6 draws
+Rarity 2 - 2 Star ★★ 2/6 draws
+Rarity 3 - 3 Star ★★★ 1/6 draws >> Lucky Card - 4  ★★★★ 1/6 draws of a Rarity 3 draws (1/36 Essentially)
