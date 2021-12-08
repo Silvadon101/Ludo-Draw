@@ -14,10 +14,12 @@ Draw Phase :
 	draw related card effects.
 	
 Action Phase :
-	Play a maximum of two cards unless interrupted by other effects, other players
-	can respond with counter clash cards.
+	Play a maximum of two cards unless interrupted by other effects. 
 	
-End Phase : Turn ends, nothing happens.
+Default Roll:
+	When your turn starts you roll your dice. Then you move your tokens to the amount rolled.
+	
+End Phase : Turn ends, Draw a card. (You can only draw after you make your "default roll")
 
 
 -------------------------------------------------
@@ -92,5 +94,5 @@ Clash Cards--
 ** Rolling a double will make that dice throw immune to the effects of other players.
 ** Rolling a double with the first throw will grant a single bonus throw.
 ** If a double is rolled twice, a player can discard one card and draw a replacement from the lottery.
-============================================================================================================================================
-============================================================================================================================================
+====================X=====X========================================================================X=====X======================================
+====================X=====X========================================================================X=====X======================================
