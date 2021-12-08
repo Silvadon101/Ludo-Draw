@@ -17,3 +17,11 @@ Double Rules:
 	Max double roles = 2
 	Max movement after double = 2
 
+Dice Card Effects:
+	When dice cards are played, only a single die must be used to carry out the 
+	effects. 
+	For example --
+		Dice-Appear!
+			Roll a die    // Only a single die must be rolled.
+			
+			

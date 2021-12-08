@@ -6,8 +6,8 @@ Event Sheduling
 --------------------------------------
 
 Assessment Phase :
-	Any delayed effects from turns exectuted prior (by any player targetting you, 
-	or you targetting any player) are checked
+	Any delayed effects from turns executed prior (by any player targetting you, 
+	or you targetting any player) are checked.
 
 Draw Phase : 
 	If you possess a token, draw a card if not obstructed by a card effect, trigger 
@@ -29,12 +29,12 @@ New Card Ideas
 
 Delayed Effects --
 	Time Bomb: 
-		Roll three dice and pick one, after that number of turns,
-		blow up the current player's dice.
+		Roll a die. Start a "Countdown" equal to your roll. Skip the turn of the
+		player who gets caught when the "Countdown" hits zero.
 	
 	Remote Detonator: 
-		Roll your dice and pick one, after that number of turns, 
-		blow up two cards picked blindly from the player's hand.
+		Roll a die. Start a "Countdown" equal to your roll. Discard
+		two cards from the player's hand who got caught in the "Countdown".
 	
 Draw Interruption --
 	Double Deposit:
@@ -42,54 +42,57 @@ Draw Interruption --
 		two cards to the lottery.
 	
 	Fake Ticket:
-		The next player has their draw reduced by one.
+		The next player has their draw reduced by one. // The default draw is one draw, so fake ticket is redundant	
 	
 	Lost and Found: 
-		Return two cards to the main lottery, Next turn,
-		draw two cards.
+		Return two cards to the main lottery. Draw two cards next turn,
+		
 	Bonus!:
 		Every player immediately draws a card.
 		
 Action Cards --
 	Glass Cieling:
-		Roll your dice, the other players cannot achieve a 
-		value higher than what you have rolled for your turn
-		and the next players turn.
+		Roll a die, the other players cannot achieve a 
+		value higher than what you have rolled for their upcoming turns.
+		
 		
 	The Floor Is Lava:
 		Roll a die, if the next player rolls a value lower than
-		or equal to that value, their roll is lost.
+		or equal to that value, their roll is lost.   // This needs thinkering
 		
 	Power Throw:
-		Throw an additional die.
-		
+		Throw an additional die.     // We can keep it simple and say, "Roll a die".
+ 		 
 	Mini Toss:
 		Modify default dice throw to throw each die separately.
-		(Counters Glass Cieling)
+		(Counters Glass Cieling).  // Glass ceiling was modified for simplicity. This needs thinkering
 		
 	It's All In The Wrist:
-		Roll your dice, you are guaranteed a double.
+		Roll a die, you are guaranteed a double. // Goes against core rules. 
 		
 	Pitfall:
-	Roll your dice, leave a pitfall at your starting position until
-	your next turn. Pitfall swallows the dice of any player that lands
-	on it, sending their token back to square one.
+	Roll a die. Leave a "Mark" on your current position. Move a player's token
+	backwards to the amount rolled that lands on your "Mark"	
 	
 	Inquisition:
-	Predict the value of a die roll, get an extra turn if you guessed correctly.
+	Predict the value of a die roll then roll a die. Get an extra turn if you guessed
+	correctly. Lose your next turn if guessed incorrectly.
 	
 	Risky Toss:
-	Roll your dice, depending on the value you may draw or lose cards. 
-	6/7/8 -- Discard a card. 5/9 -- Draw a Rarity 2 card. 2/3/4/10/11/12
-	-- Draw a Rarity 3 Card.
+	Roll a die. Apply below based on value rolled =
+	6/1/ -- Discard a card. 
+	2/4 -- Draw 2 cards. 
+	3/5 -- Move a token 3 or 5 spaces
+	
 	
 Clash Cards--
 	Duel:
-		Clash dice with the next player. The loser loses their turn or next turn.
+		Select another player. Both roll a die.
+		The lowest rolled loses their next turn.
 	
 	Call to conquest:
-		Clash dice with every player, if you win they all lose their next turn. 
-		If you lose, you lose as many turns as each other player.
+		Select every player. All roll a die. All lose their
+		next turn but the winning roll.
 
 ** Rolling a double will make that dice throw immune to the effects of other players.
 ** Rolling a double with the first throw will grant a single bonus throw.
