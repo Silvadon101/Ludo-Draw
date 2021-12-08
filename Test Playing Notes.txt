@@ -1,0 +1,19 @@
+==========================================================================================
+---------------------------------------------
+Limitations
+
+These are strict rules that aims to balance the
+overall gameplay experience. 
+----------------------------------------------
+
+Hand Limit:
+	Hand size limit for each player is 4. Extra cards are discarded to the "Discard Pile"
+
+Discard Pile Limit:
+	The size of the discard pile is 10. The discard pile is removed from play after it hits it's limit.
+	Then a new pile is created.
+
+Double Rules: 
+	Max double roles = 2
+	Max movement after double = 2
+

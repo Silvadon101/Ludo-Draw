@@ -1,31 +1,96 @@
-Event Sheduling -
-Assessment Phase : Any delayed effects from turns exectuted prior (by any player targetting you, or you targetting any player) are checked
-Draw Phase : If you possess a token, draw a card if not obstructed by a card effect, trigger draw related card effects.
-Action Phase : Play a maximum of two cards unless interrupted by other effects, other players can respond with counter clash cards.
+==========================================================================================================================================================
+==========================================================================================================================================================
+---------------------------------------
+Event Sheduling 
+
+--------------------------------------
+
+Assessment Phase :
+	Any delayed effects from turns exectuted prior (by any player targetting you, 
+	or you targetting any player) are checked
+
+Draw Phase : 
+	If you possess a token, draw a card if not obstructed by a card effect, trigger 
+	draw related card effects.
+	
+Action Phase :
+	Play a maximum of two cards unless interrupted by other effects, other players
+	can respond with counter clash cards.
+	
 End Phase : Turn ends, nothing happens.
 
-New Card Ideas -
+
+-------------------------------------------------
+New Card Ideas 
+
+-------------------------------------------------
+
 Delayed Effects --
-	Time Bomb - Roll three dice and pick one, after that number of turns, blow up the current player's dice.
-	Remote Detonator - Roll your dice and pick one, after that number of turns, blow up two cards picked blindly from the player's hand.
+	Time Bomb: 
+		Roll three dice and pick one, after that number of turns,
+		blow up the current player's dice.
+	
+	Remote Detonator: 
+		Roll your dice and pick one, after that number of turns, 
+		blow up two cards picked blindly from the player's hand.
+	
 Draw Interruption --
-	Double Deposit - Return one card to the lottery, the next player must return two cards to the lottery.
-	Fake Ticket - The next player has their draw reduced by one.
-	Lost and Found - Return two cards to the main lottery, Next turn, draw two cards.
-	Bonus! - Every player immediately draws a card.
+	Double Deposit:
+		Return one card to the lottery, the next player must return
+		two cards to the lottery.
+	
+	Fake Ticket:
+		The next player has their draw reduced by one.
+	
+	Lost and Found: 
+		Return two cards to the main lottery, Next turn,
+		draw two cards.
+	Bonus!:
+		Every player immediately draws a card.
+		
 Action Cards --
-	Glass Cieling -- Roll your dice, the other players cannot achieve a value higher than what you have rolled for your turn and the next players turn.
-	The Floor Is Lava -- Roll a die, if the next player rolls a value lower than or equal to that value, their roll is lost.
-	Power Throw -- Throw an additional die.
-	Mini Toss -- Modify default dice throw to throw each die separately. (Counters Glass Cieling)
-	It's All In The Wrist -- Roll your dice, you are guaranteed a double.
-	Pitfall -- Roll your dice, leave a pitfall at your starting position until your next turn. Pitfall swallows the dice of any player that lands on it, sending their token back to square one.
-	Inquisition -- Predict the value of a die roll, get an extra turn if you guessed correctly.
-	Risky Toss -- Roll your dice, depending on the value you may draw or lose cards. 6/7/8 -- Discard a card. 5/9 -- Draw a Rarity 2 card. 2/3/4/10/11/12 -- Draw a Rarity 3 Card.
-Clash Cards --
-	Duel -- Clash dice with the next player. The loser loses their turn or next turn.
-	Call to conquest -- Clash dice with every player, if you win they all lose their next turn. If you lose, you lose as many turns as each other player.
+	Glass Cieling:
+		Roll your dice, the other players cannot achieve a 
+		value higher than what you have rolled for your turn
+		and the next players turn.
+		
+	The Floor Is Lava:
+		Roll a die, if the next player rolls a value lower than
+		or equal to that value, their roll is lost.
+		
+	Power Throw:
+		Throw an additional die.
+		
+	Mini Toss:
+		Modify default dice throw to throw each die separately.
+		(Counters Glass Cieling)
+		
+	It's All In The Wrist:
+		Roll your dice, you are guaranteed a double.
+		
+	Pitfall:
+	Roll your dice, leave a pitfall at your starting position until
+	your next turn. Pitfall swallows the dice of any player that lands
+	on it, sending their token back to square one.
+	
+	Inquisition:
+	Predict the value of a die roll, get an extra turn if you guessed correctly.
+	
+	Risky Toss:
+	Roll your dice, depending on the value you may draw or lose cards. 
+	6/7/8 -- Discard a card. 5/9 -- Draw a Rarity 2 card. 2/3/4/10/11/12
+	-- Draw a Rarity 3 Card.
+	
+Clash Cards--
+	Duel:
+		Clash dice with the next player. The loser loses their turn or next turn.
+	
+	Call to conquest:
+		Clash dice with every player, if you win they all lose their next turn. 
+		If you lose, you lose as many turns as each other player.
 
 ** Rolling a double will make that dice throw immune to the effects of other players.
 ** Rolling a double with the first throw will grant a single bonus throw.
 ** If a double is rolled twice, a player can discard one card and draw a replacement from the lottery.
+============================================================================================================================================
+============================================================================================================================================
