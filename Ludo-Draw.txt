@@ -47,6 +47,7 @@ Draw Interruption --
 	Lost and Found: 
 		Return two cards to the main lottery, Next turn,
 		draw two cards.
+		
 	Bonus!:
 		Every player immediately draws a card.
 		

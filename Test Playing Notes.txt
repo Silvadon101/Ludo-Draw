@@ -14,6 +14,6 @@ Discard Pile Limit:
 	Then a new pile is created.
 
 Double Rules: 
-	Max double roles = 2
+	Max double rolls = 2
 	Max movement after double = 2
 
