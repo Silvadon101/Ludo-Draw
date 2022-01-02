@@ -1,7 +1,7 @@
 ==========================================================================================================================================================
 ==========================================================================================================================================================
 ---------------------------------------
-Event Sheduling 
+Event Scheduling 
 
 --------------------------------------
 
@@ -45,7 +45,10 @@ Draw Interruption --
 		The next player has their draw reduced by one. // The default draw is one draw, so fake ticket is redundant	
 	
 	Lost and Found: 
+
 		Return two cards to the main lottery. Draw two cards next turn,
+
+		
 		
 	Bonus!:
 		Every player immediately draws a card.
