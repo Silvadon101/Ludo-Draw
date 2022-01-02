@@ -26,6 +26,28 @@ Dice Card Effects :
 End Phase : Turn ends, Draw a card. (You can only draw after you make your "default roll")
 
 
+
+----------------------------------------
+Limitations
+
+These are strict rules that aims to 
+balance the overall gameplay experience. 
+----------------------------------------
+
+Hand Limit :
+	Hand size limit for each player is 4. Extra cards are discarded to the "Discard Pile"
+	at the player's turn end. 
+
+Discard Pile :
+	LIMIT = x10
+	The size of the discard pile is 10. The discard pile is removed from the game after it hits it's limit.
+	Then a new pile is created.
+
+Double Rules: 
+	3 double rolls = Lose your next turn. 
+
+
+	
 -------------------------------------------------
 New Card Ideas 
 
