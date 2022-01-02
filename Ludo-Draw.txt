@@ -18,6 +18,10 @@ Action Phase :
 	
 Default Roll:
 	When your turn starts you roll your dice. Then you move your tokens to the amount rolled.
+	DICE AMOUNT = x2.
+	
+Dice Card Effects :
+	DICE AMOUNT = x1.
 	
 End Phase : Turn ends, Draw a card. (You can only draw after you make your "default roll")
 
