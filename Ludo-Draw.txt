@@ -21,6 +21,10 @@ Default Roll:
 	
 End Phase : Turn ends, Draw a card. (You can only draw after you make your "default roll")
 
+Hand Limit:
+	Hand size limit for each player is 4. Extra cards are discarded to the "Discard Pile"
+	at the player's turn end. 
+	
 
 -------------------------------------------------
 New Card Ideas 
