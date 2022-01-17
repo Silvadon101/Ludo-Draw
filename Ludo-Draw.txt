@@ -82,12 +82,13 @@ Draw Interruption --
 Action Cards --
 	Glass Cieling:
 		Roll a die, the other players cannot achieve a 
-		value higher than what you have rolled for their upcoming turns.
+		value higher than twice what you have rolled for their upcoming turns.
 		
 		
 	The Floor Is Lava:
 		Roll a die, if the next player rolls a value lower than
 		or equal to that value, their roll is lost.   // This needs thinkering
+		** Roll a single die, if upcoming players default roll a value lower than twice this, they will lose their turn.
 		
 	Power Throw:
 		Throw an additional die.     // We can keep it simple and say, "Roll a die".
@@ -95,6 +96,7 @@ Action Cards --
 	Mini Toss:
 		Modify default dice throw to throw each die separately.
 		(Counters Glass Cieling).  // Glass ceiling was modified for simplicity. This needs thinkering
+		** Buster Toss: An unstoppable toss that ignores Glass Ceiling and The Floor Is Lava.
 		
 	It's All In The Wrist:
 		Roll a die, you are guaranteed a double. // Goes against core rules. 
