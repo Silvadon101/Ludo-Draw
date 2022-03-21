@@ -36,7 +36,10 @@ balance the overall gameplay experience.
 
 Hand Limit :
 	Hand size limit for each player is 4. Extra cards are discarded to the "Discard Pile"
-	at the player's turn end. 
+	at the player's turn end.
+	
+Play Limit :
+	Only two cards may be played per turn.
 
 Discard Pile :
 	LIMIT = x10
@@ -45,7 +48,6 @@ Discard Pile :
 
 Double Rules: 
 	3 double rolls = Lose your next turn. 
-
 
 	
 -------------------------------------------------
