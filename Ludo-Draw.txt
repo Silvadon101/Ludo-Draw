@@ -39,7 +39,7 @@ Hand Limit :
 	at the player's turn end.
 	
 Play Limit :
-	Only two cards may be played per turn.
+	Only two cards max may be played per turn.
 
 Discard Pile :
 	LIMIT = x10
@@ -47,7 +47,7 @@ Discard Pile :
 	Then a new pile is created.
 
 Double Rules: 
-	3 double rolls = Lose your next turn. 
+	3 consecutive double rolls = Lose your next turn. 
 
 	
 -------------------------------------------------
@@ -63,45 +63,42 @@ Delayed Effects --
 	Remote Detonator: 
 		Roll a die. Start a "Countdown" equal to your roll. Discard
 		two cards from the player's hand who got caught in the "Countdown".
+		
+	One for One:
+		If you roll a "1" on a die, draw a card.
 	
-Draw Interruption --
+	It's All In The Wrist:
+		Your next turn roll is a double. 
+	
+Wild Cards --
 	Double Deposit:
 		Return one card to the lottery, the next player must return
-		two cards to the lottery.
+		one card to the lottery.
 	
 	Fake Ticket:
-		The next player has their draw reduced by one. // The default draw is one draw, so fake ticket is redundant	
+		This card does nothing.	
 	
 	Lost and Found: 
-
-		Return two cards to the main lottery. Draw two cards next turn,
-
-		
+		Return two cards to the main lottery. Draw two cards next turn.		
 		
 	Bonus!:
 		Every player immediately draws a card.
 		
 Action Cards --
 	Glass Cieling:
-		Roll a die, the other players cannot achieve a 
-		value higher than twice what you have rolled for their upcoming turns.
+		Roll a die, the other players cannot roll a 
+		value higher than twice that amount on their upcoming turns.
 		
 		
 	The Floor Is Lava:
 		Roll a die, if the next player rolls a value lower than
 		or equal to that value, their roll is lost.   // This needs thinkering
 		** Roll a single die, if upcoming players default roll a value lower than twice this, they will lose their turn.
-		
-	Power Throw:
-		Throw an additional die.     // We can keep it simple and say, "Roll a die".
- 		 
+		 		 
 	Mini Toss:
 		Modify default dice throw to throw each die separately.
 		(Counters Glass Cieling).  // Glass ceiling was modified for simplicity. This needs thinkering
-		** Buster Toss: An unstoppable toss that ignores Glass Ceiling and The Floor Is Lava.
-		
-	It's All In The Wrist:
-		Roll a die, you are guaranteed a double. // Goes against core rules. 
+		** Buster Toss: An unstoppable toss that ignores Glass Ceiling and The Floor Is Lava.		
 		
 	Pitfall:
 	Roll a die. Leave a "Mark" on your current position. Move a player's token
@@ -127,8 +124,5 @@ Clash Cards--
 		Select every player. All roll a die. All lose their
 		next turn but the winning roll.
 
-** Rolling a double will make that dice throw immune to the effects of other players.
-** Rolling a double with the first throw will grant a single bonus throw.
-** If a double is rolled twice, a player can discard one card and draw a replacement from the lottery.
 ====================X=====X========================================================================X=====X======================================
 ====================X=====X========================================================================X=====X======================================
