@@ -86,9 +86,6 @@ Delayed Effects --
 	Illusion Dice: ★★★
 		Multiply your next die roll x2
 	
-	Into the Unknown:
-		Discard your entire hand.  
-		Draw cards equal to the discard amount +1.
 	
 Wild Cards --
 	Double Deposit: ★★★★
@@ -108,6 +105,10 @@ Action Cards --
 	
 	Witch  Way: 
 		Roll a die. Move that amount forward or backwards.
+		
+	Into the Unknown:
+		Discard your entire hand.  
+		Draw cards equal to the discard amount +1.
 		
 	Glass Cieling:
 		Roll a die, the other players cannot roll a 
