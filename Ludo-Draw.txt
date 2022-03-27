@@ -51,9 +51,22 @@ Double Rules:
 
 	
 -------------------------------------------------
+Lucky Cards 
+
+-------------------------------------------------
+	
+	Ultimate Wish: ★★★★
+		Roll a die x3 and draw 2 cards.
+	
+	Glorious Cards: ★★★★
+		Draw 1 card from every player. Discard one card from every player.
+		
+		
+-------------------------------------------------
 New Card Ideas 
 
 -------------------------------------------------
+	
 
 Delayed Effects --
 	Time Bomb: 
@@ -70,21 +83,32 @@ Delayed Effects --
 	It's All In The Wrist:
 		Your next turn roll is a double. 
 	
+	Illusion Dice: ★★★
+		Multiply your next die roll x2
+	
+	Into the Unknown:
+		Discard your entire hand.  
+		Draw cards equal to the discard amount +1.
+	
 Wild Cards --
-	Double Deposit:
+	Double Deposit: ★★★★
 		Return one card to the lottery, the next player must return
 		one card to the lottery.
 	
-	Fake Ticket:
+	Fake Ticket: ★★★★
 		This card does nothing.	
 	
-	Lost and Found: 
+	Lost and Found: ★★★★
 		Return two cards to the main lottery. Draw two cards next turn.		
 		
-	Bonus!:
+	Bonus!: ★★★★
 		Every player immediately draws a card.
 		
 Action Cards --
+	
+	Witch  Way: 
+		Roll a die. Move that amount forward or backwards.
+		
 	Glass Cieling:
 		Roll a die, the other players cannot roll a 
 		value higher than twice that amount on their upcoming turns.
