@@ -1,29 +1,25 @@
 ==========================================================================================================================================================
 ==========================================================================================================================================================
 ---------------------------------------
-Event Scheduling 
-
+Event Scheduling  // Suggested modification of phase progress, removed redundant phases.
+A turn must proceed as follows
 --------------------------------------
+Default Roll :
+	Roll your dice, then you move your tokens to the amount rolled. If a double is rolled, roll again.
+	Trigger roll related card effects. Negative effects on you are negated for the turn by rolling a double.
+	DICE AMOUNT = x2.
 
 Assessment Phase :
-	Any delayed effects from turns executed prior (by any player targetting you, 
+	Any delayed effects from turns executed prior (by any player targetting you,
 	or you targetting any player) are checked.
-
-Draw Phase : 
-	If you possess a token, draw a card if not obstructed by a card effect, trigger 
-	draw related card effects.
 	
 Action Phase :
-	Play a maximum of two cards unless interrupted by other effects. 
-	
-Default Roll:
-	When your turn starts you roll your dice. Then you move your tokens to the amount rolled.
-	DICE AMOUNT = x2.
+	Play a maximum of two cards unless interrupted by other effects. Discard any cards you don't want to the discard pile.
 	
 Dice Card Effects :
 	DICE AMOUNT = x1.
 	
-End Phase : Turn ends, Draw a card. (You can only draw after you make your "default roll")
+End Phase : Turn ends, Draw a card if you possess a token. Trigger draw related card effects.
 
 
 
@@ -43,11 +39,20 @@ Play Limit :
 
 Discard Pile :
 	LIMIT = x10
-	The size of the discard pile is 10. The discard pile is removed from the game after it hits it's limit.
-	Then a new pile is created.
+	The size of the discard pile is 10. Follows FIFO logic, once the limit of 10 is reached the oldest card in the pile is thrown out.
 
 Double Rules: 
 	3 consecutive double rolls = Lose your next turn. 
+
+
+-------------------------------------------------
+Tile Hazard Effects
+
+-------------------------------------------------
+	Pit: Move backwards 4 spaces.
+	Blaze: You shall not pass.
+	Thorns: Your token will become stuck where they land for two turns.
+	Slippery: Your token will slide right to the end from where they land.
 
 	
 -------------------------------------------------
@@ -59,94 +64,113 @@ Lucky Cards
 		Roll a die x3 and draw 2 cards.
 	
 	Glorious Cards: ★★★★
-		Draw 1 card from every player. Discard one card from every player.
+		Draw 1 guaranteed SR card then discard one random card from each other player. // Suggested change, taking a card from each player is too much
 		
 		
 -------------------------------------------------
-New Card Ideas 
+New Card Ideas // I don't understand these categories. Wild Cards?
 
 -------------------------------------------------
 	
 
 Delayed Effects --
-	Time Bomb: 
-		Roll a die. Start a "Countdown" equal to your roll. Skip the turn of the
-		player who gets caught when the "Countdown" hits zero.
+	Time Bomb: ★★★
+		Pick a number for a "Countdown". Skip the turn of the
+		player who gets caught when the "Countdown" hits zero. // Suggested change to give the player more control over their target
 	
-	Remote Detonator: 
+	Remote Detonator: ★★ 
 		Roll a die. Start a "Countdown" equal to your roll. Discard
-		two cards from the player's hand who got caught in the "Countdown".
-		
-	One for One:
-		If you roll a "1" on a die, draw a card.
+		one card from the player's hand who got caught in the "Countdown".
 	
-	It's All In The Wrist:
+	It's All In The Wrist: ★★
 		Your next turn roll is a double. 
 	
 	Illusion Dice: ★★★
 		Multiply your next die roll x2
+
+	Vacation: ★
+		Leave the board for two turns.
 	
 	
 Wild Cards --
-	Double Deposit: ★★★★
+	Double Deposit: ★★★ // Why was this listed as the highest rarity?
 		Return one card to the lottery, the next player must return
 		one card to the lottery.
 	
-	Fake Ticket: ★★★★
-		This card does nothing.	
-	
-	Lost and Found: ★★★★
+	Fake Ticket: ★ // Why was this listed as the highest rarity?
+		This card does nothing.
+
+	10 KASH DOLRZ!: ★
+		KASH M0NE!
+
+	15 KASH DOLRZ!: ★
+		MOR KASH MONE!		
+
+	KASH Salesman!: ★
+		(Kards 4 Kash!) Draw 1 Kard from the DisKard Pile for every 10 KASH DOLRZ!
+
+	KASH RAID!: ★
+		Call [KRIME STOP] to search a player on the board for illegal [KASH DOLRZ!] Discard a card if they have none.
+
+	Dumpster Dive: ★
+		Draw the card at the top of the discard pile 
+		and return one of yours to the lottery.
+
+	Lost and Found: ★★★ // Why was this listed as the highest rarity?
 		Return two cards to the main lottery. Draw two cards next turn.		
 		
-	Bonus!: ★★★★
-		Every player immediately draws a card.
+	Bonus!: ★★★ // Why was this listed as the highest rarity?
+		Every player on the board immediately draws a card and you get a new default roll.
 		
 Action Cards --
 	
-	Witch  Way: 
-		Roll a die. Move that amount forward or backwards.
+	Witch Way: ★ / Suggested change for more interesting effect
+		Roll a die. Move that amount forward if odd or backwards if even.
+
+	One for One: ★
+		If you roll a "1" on a die, draw a card.
 		
-	Into the Unknown:
-		Discard your entire hand.  
+	Into the Unknown: ★ // Suggested adjusment of discard to obey hand size limits.
+		You must discard as many as three cards.  
 		Draw cards equal to the discard amount +1.
 		
-	Glass Cieling:
+	Glass Cieling: ★★★
 		Roll a die, the other players cannot roll a 
-		value higher than twice that amount on their upcoming turns.
+		value higher than twice that until your next turn.		
 		
-		
-	The Floor Is Lava:
-		Roll a die, if the next player rolls a value lower than
-		or equal to that value, their roll is lost.   // This needs thinkering
-		** Roll a single die, if upcoming players default roll a value lower than twice this, they will lose their turn.
+	The Floor Is Lava: ★★ // Tinkered
+		Roll a die, if other players rolls a value lower than
+		or equal to that value before your next turn - they cannot move their token for that turn. 
 		 		 
-	Mini Toss:
-		Modify default dice throw to throw each die separately.
-		(Counters Glass Cieling).  // Glass ceiling was modified for simplicity. This needs thinkering
-		** Buster Toss: An unstoppable toss that ignores Glass Ceiling and The Floor Is Lava.		
-		
-	Pitfall:
-	Roll a die. Leave a "Mark" on your current position. Move a player's token
-	backwards to the amount rolled that lands on your "Mark"	
+	Mini Toss: //Suggested removal since mechanisms have been put in place to fight against negative effects.		
 	
-	Inquisition:
-	Predict the value of a die roll then roll a die. Get an extra turn if you guessed
-	correctly. Lose your next turn if guessed incorrectly.
+	Inquisition: // Suggested removal
 	
-	Risky Toss:
-	Roll a die. Apply below based on value rolled =
-	6/1/ -- Discard a card. 
-	2/4 -- Draw 2 cards. 
-	3/5 -- Move a token 3 or 5 spaces
+	Risky Toss: ★★★
+		Roll a die. Apply below based on value rolled =
+		6/1 -- Discard a card. 
+		2/4 -- Draw 2 cards. 
+		3/5 -- Move your token 4 spaces ahead.
+
+	Pitfall: ★★
+		Roll a die and move a token. Set a "Pit" hazard on the sarting tile.
 	
+	Red Roll: ★★
+		Roll a die and move a token. Every tile you cross will be lit ablaze with the "Blaze" hazard until your next turn.
+	
+	Green Roll: ★★
+		Roll a die and move a token. Every tile you cross will become overgrown with the "Thorns" hazard until your next turn.
+	
+	Blue Roll: ★★
+		Roll a die and move a token. Every tile you cross will become soaked with the "Slippery" hazard until your next turn.
 	
 Clash Cards--
-	Duel:
-		Select another player. Both roll a die.
-		The lowest rolled loses their next turn.
+	Duel: ★★
+		Challenge another player on the board.
+		The lower rolling player loses their current or next turn.
 	
-	Call to conquest:
-		Select every player. All roll a die. All lose their
+	Call to conquest: ★★★
+		Select every player on the board. All roll a die. All lose their
 		next turn but the winning roll.
 
 ====================X=====X========================================================================X=====X======================================
