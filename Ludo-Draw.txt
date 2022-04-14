@@ -116,8 +116,11 @@ Wild Cards --
 		Draw the card at the top of the discard pile 
 		and return one of yours to the lottery.
 
+	Recycling: ★★
+		Trade two cards with two cards from the top of discard pile.
+
 	Lost and Found: ★★★ // Why was this listed as the highest rarity?
-		Return two cards to the main lottery. Draw two cards next turn.		
+		Return cards to the lottery. Choose that amount of cards from the discard pile.
 		
 	Bonus!: ★★★ // Why was this listed as the highest rarity?
 		Every player on the board immediately draws a card and you get a new default roll.
