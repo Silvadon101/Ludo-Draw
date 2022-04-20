@@ -2,11 +2,11 @@
 ======================================================================================================
 The lottery for cards may be divided into three rarities and the exception of Lucky Cards.
 
-Rarity 1 - 1 Star ★ ['Rare': '4 copies in lottery, 8 of type'] // Suggested change to Common
-Rarity 2 - 2 Star ★★ ['Super Rare': '3 copies in lottery, 5 of type'] // Suggested change to Rare
-Rarity 3 - 3 Star ★★★ ['Mega Rare': '2 copies in lottery, 2 of type'] // suggested change to Super Rare
+Rarity 1 - 1 Star ★ ['Rare': '5 copies in lottery, 5 per match'] // Suggested change to Common
+Rarity 2 - 2 Star ★★ ['Super Rare': '4 copies in lottery, 4 per match'] // Suggested change to Rare
+Rarity 3 - 3 Star ★★★ ['Mega Rare': '3 copies in lottery, 3 per match'] // Suggested change to Super Rare
  
-Lucky Card - 4 Star  ★★★★ ['1 copy in lottery, 1 of type in lottery']  // Suggested change to Ace, rather than Lucky Card
+Lucky Card - 4 Star  ★★★★ ['1 copy in lottery, unique']  // Suggested change to Ace, rather than Lucky Card
 
 
 ===================X======X====================================================X======X===============

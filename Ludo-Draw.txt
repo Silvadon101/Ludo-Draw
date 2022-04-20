@@ -26,7 +26,7 @@ End Phase : Turn ends, Draw a card if you possess a token. Trigger draw related 
 ----------------------------------------
 Limitations
 
-These are strict rules that aims to 
+These are strict rules that aim to 
 balance the overall gameplay experience. 
 ----------------------------------------
 
@@ -38,19 +38,19 @@ Play Limit :
 	Only two cards max may be played per turn.
 
 Discard Pile :
-	LIMIT = x10
-	The size of the discard pile is 10. Follows FIFO logic, once the limit of 10 is reached the oldest card in the pile is thrown out.
+	LIMIT = (players + 1) * 2
+	The size of the discard pile is the amount of players plus 1 times 2. Once the limit is reached the pile is removed from play.
 
 Double Rules: 
 	3 consecutive double rolls = Lose your next turn. 
 
 
 -------------------------------------------------
-Tile Hazard Effects
+Tile Effects
 
 -------------------------------------------------
 	Pit: Move backwards 4 spaces.
-	Blaze: You shall not pass.
+	Blaze: Hot! Jump 4 spaces forwards.
 	Thorns: Your token will become stuck where they land for two turns.
 	Slippery: Your token will slide right to the end from where they land.
 
@@ -64,53 +64,17 @@ Lucky Cards
 		Roll a die x3 and draw 2 cards.
 	
 	Glorious Cards: ★★★★
-		Draw 1 guaranteed SR card then discard one random card from each other player. // Suggested change, taking a card from each player is too much
-		
+		Take 1 random card from each other player.
 		
 -------------------------------------------------
-New Card Ideas // I don't understand these categories. Wild Cards?
+New Card Ideas
 
 -------------------------------------------------
 	
 
-Delayed Effects --
-	Time Bomb: ★★★
-		Pick a number for a "Countdown". Skip the turn of the
-		player who gets caught when the "Countdown" hits zero. // Suggested change to give the player more control over their target
-	
-	Remote Detonator: ★★ 
-		Roll a die. Start a "Countdown" equal to your roll. Discard
-		one card from the player's hand who got caught in the "Countdown".
-	
-	It's All In The Wrist: ★★
-		Your next turn roll is a double. 
-	
-	Illusion Dice: ★★★
-		Multiply your next die roll x2
-
-	Vacation: ★
-		Leave the board for two turns.
-	
-	
-Wild Cards --
-	Double Deposit: ★★★ // Why was this listed as the highest rarity?
-		Return one card to the lottery, the next player must return
-		one card to the lottery.
-	
-	Fake Ticket: ★ // Why was this listed as the highest rarity?
-		This card does nothing.
-
-	10 KASH DOLRZ!: ★
-		KASH M0NE!
-
-	15 KASH DOLRZ!: ★
-		MOR KASH MONE!		
-
+Loot Cards --
 	KASH Salesman!: ★
 		(Kards 4 Kash!) Draw 1 Kard from the DisKard Pile for every 10 KASH DOLRZ!
-
-	KASH RAID!: ★
-		Call [KRIME STOP] to search a player on the board for illegal [KASH DOLRZ!] Discard a card if they have none.
 
 	Dumpster Dive: ★
 		Draw the card at the top of the discard pile 
@@ -124,50 +88,48 @@ Wild Cards --
 		
 	Bonus!: ★★★ // Why was this listed as the highest rarity?
 		Every player on the board immediately draws a card and you get a new default roll.
-		
-Action Cards --
-	
-	Witch Way: ★ / Suggested change for more interesting effect
-		Roll a die. Move that amount forward if odd or backwards if even.
 
 	One for One: ★
-		If you roll a "1" on a die, draw a card.
+		If you've rolled a "1" on a die, draw a card.
 		
 	Into the Unknown: ★ // Suggested adjusment of discard to obey hand size limits.
 		You must discard as many as three cards.  
 		Draw cards equal to the discard amount +1.
-		
-	Glass Cieling: ★★★
-		Roll a die, the other players cannot roll a 
-		value higher than twice that until your next turn.		
-		
-	The Floor Is Lava: ★★ // Tinkered
-		Roll a die, if other players rolls a value lower than
-		or equal to that value before your next turn - they cannot move their token for that turn. 
-		 		 
-	Mini Toss: //Suggested removal since mechanisms have been put in place to fight against negative effects.		
 	
-	Inquisition: // Suggested removal
-	
-	Risky Toss: ★★★
-		Roll a die. Apply below based on value rolled =
-		6/1 -- Discard a card. 
-		2/4 -- Draw 2 cards. 
-		3/5 -- Move your token 4 spaces ahead.
+	Remote Detonator: ★★ 
+		Roll a die. Start a "Countdown" equal to your roll. Discard
+		one card from the player's hand who got caught in the "Countdown".
 
-	Pitfall: ★★
-		Roll a die and move a token. Set a "Pit" hazard on the sarting tile.
+	Double Deposit: ★★★ // Why was this listed as the highest rarity?
+		Return one card to the lottery, the next player must return
+		one card to the lottery.
 	
-	Red Roll: ★★
-		Roll a die and move a token. Every tile you cross will be lit ablaze with the "Blaze" hazard until your next turn.
+Dash Cards --
+	Witch Way x2: ★
+		Roll a die. Move that amount forward or backwards.
+
+	Tipsy Toss x2: ★
+		Roll a die, move forwards twice that. Roll a die, move backwards twice that.
+
+	Emerald Road x2: ★★
+		At the end of this turn move as many spaces as cards in your hand.
+
+	An Arm and a Leg x2: ★★
+		Trade in a token for drawing two cards from the lottery.
 	
-	Green Roll: ★★
-		Roll a die and move a token. Every tile you cross will become overgrown with the "Thorns" hazard until your next turn.
-	
-	Blue Roll: ★★
-		Roll a die and move a token. Every tile you cross will become soaked with the "Slippery" hazard until your next turn.
-	
-Clash Cards--
+Wild Cards --	
+	Fake Ticket: ★ // Why was this listed as the highest rarity?
+		This card does nothing.
+
+	10 KASH DOLRZ!: ★
+		KASH M0NE!
+
+	15 KASH DOLRZ!: ★
+		MOR KASH MONE!		
+
+	KASH RAID!: ★
+		Call [KRIME STOP] to search a player on the board for illegal [KASH DOLRZ!] Discard a card if they have none.
+
 	Duel: ★★
 		Challenge another player on the board.
 		The lower rolling player loses their current or next turn.
@@ -175,6 +137,35 @@ Clash Cards--
 	Call to conquest: ★★★
 		Select every player on the board. All roll a die. All lose their
 		next turn but the winning roll.
+	
+	Time Bomb: ★★★
+		Pick a number for a "Countdown". Skip the turn of the
+		player who gets caught when the "Countdown" hits zero. // Suggested change to give the player more control over their target
+	
+	It's All In The Wrist: ★★
+		Your next turn default roll is a double. 
+	
+	Illusion Dice: ★★★
+		Multiply your next die roll x2
+
+	Vacation: ★
+		Leave the board for two turns.
+
+	Risky Toss: ★★★
+		Roll a die. Apply below based on value rolled =
+		6/1 -- Discard a card. 
+		2/4 -- Draw 2 cards. 
+		3/5 -- Move your token 4 spaces ahead.
+
+	Glass Cieling: ★★★
+		Roll a die, the other players cannot roll a 
+		value higher than twice that until your next turn.		
+		
+	The Floor Is Lava: ★★
+		Roll a die, if other players rolls a value lower than
+		or equal to that value before your next turn - they cannot move their token for that turn. 
+	
+	
 
 ====================X=====X========================================================================X=====X======================================
 ====================X=====X========================================================================X=====X======================================
