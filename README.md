@@ -1,2 +1,2 @@
 ## Ludo-Draw
-A reenvisioned dice game with cards
+A re-envisioned dice game with cards
